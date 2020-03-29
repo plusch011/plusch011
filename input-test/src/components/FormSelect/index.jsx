@@ -21,8 +21,6 @@ function FormSelect({
     const container = e.target.closest('.form-select--container');
 
     container != containerRef.current && setMenuOpen(false);
-
-    console.log(container, isMenuOpen);
   };
 
   useEffect(() => {
