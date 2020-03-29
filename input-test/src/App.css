@@ -1,0 +1,33 @@
+body, html {
+  background-color: #ddd;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+.formatter {
+  display: flex;
+  align-items: center;
+}
+
+.formatter img {
+  height: 16px;
+  width: 16px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.formatter .formatter-label {
+  margin-left: 10px;
+}
+
+.buyer-select {
+  z-index: 3;
+}

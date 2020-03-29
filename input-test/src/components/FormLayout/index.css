@@ -1,0 +1,61 @@
+.form-layout--container {
+  --min-height: 40px;
+  --border-radius: 5px;
+  
+  max-width: 1500px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 20px;
+  padding: 0 20px;
+}
+
+.form-layout--container > * {
+  margin: 20px;
+}
+
+.form-layout--buttons-container {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-button.form-layout--submit-button {
+  --background-color: darkblue;
+  --color: white;
+}
+
+.form-button.form-layout--submit-button:hover {
+  --background-color: #0000c4;
+  --color: white;
+}
+
+.form-button.form-layout--submit-button:active {
+  --background-color: #0000b7;
+  --color: white;
+}
+
+@media (max-width: 1550px) {
+  .form-layout--container {
+    width: 67%;
+  }
+}
+
+@media (max-width: 880px) {
+  .form-layout--container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  .form-layout--container {
+    width: 300px;
+    padding: 0;
+  }
+}
